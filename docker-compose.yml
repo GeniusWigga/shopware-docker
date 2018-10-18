@@ -6,17 +6,15 @@ services:
     ports:
     - "8080:80"
     volumes:
-    - ./public/shopware:/var/www/html
+    - ./public/shopware:/var/www/html:cached
     container_name: shopware-container
     links:
     - mysql:mysql
 
   mysql:
-    build: ./public/container/mysql
+    image: mysql:5.7
     ports:
     - "3306:3306"
-    volumes:
-    - ./public/_volumes/mysql:/var/lib/mysql
     container_name: mysql-container
     environment:
       MYSQL_ROOT_PASSWORD: root
