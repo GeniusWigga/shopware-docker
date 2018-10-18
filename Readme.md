@@ -6,9 +6,9 @@
 
 ## First installation
 
-delete `install.lock` in `shopware/recovery/install/data/`
+Delete `install.lock` in `shopware/recovery/install/data/`
 
-browse `localhost:8080/recovery/install/index.php`
+Browse `localhost:8080/recovery/install/index.php`
 
 ##### Shopware database
 
@@ -23,4 +23,4 @@ browse `localhost:8080/recovery/install/index.php`
 
 ### Mac performance issue
 
-file access in mounted volumes are slow. For more information go to `https://docs.docker.com/docker-for-mac/osxfs-caching/`.
+File access in mounted volumes are slow. For more information go to `https://docs.docker.com/docker-for-mac/osxfs-caching/`.
