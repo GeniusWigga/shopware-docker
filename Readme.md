@@ -2,11 +2,11 @@
 
 ## Build container
 
-`$ . start.sh`
+`$ . scripts/start.sh`
 
 ## First installation
 
-delete `install.lock` in directory `shopware/recovery/install/data/`
+delete `install.lock` in `shopware/recovery/install/data/`
 
 browse `localhost:8080/recovery/install/index.php`
 
@@ -19,4 +19,4 @@ browse `localhost:8080/recovery/install/index.php`
  
 ### Import dump
 
-`$ . restore.sh`
+`$ . scripts/restore.sh`
