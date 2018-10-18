@@ -20,3 +20,7 @@ browse `localhost:8080/recovery/install/index.php`
 ### Import dump
 
 `$ . scripts/restore.sh`
+
+### Mac performance issue
+
+file access in mounted volumes are slow. For more information go to `https://docs.docker.com/docker-for-mac/osxfs-caching/`.
